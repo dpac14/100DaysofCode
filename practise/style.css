@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(346deg 17% 70%);
+    display: flex;
+}
+
+#part1{
+    height: 100%;
+    width: 26%;
+   /* background-color: blueviolet;*/
+
+}
+
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: blue;
+    background-image: url(https://images.unsplash.com/photo-1513237726167-2ae8ea985930?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(342, 6%, 57%, 0.296) ;
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background-color: red; */
+
+}
+#text-div{
+    /* height: 300px; */
+    position: absolute ;
+    width: 400px;
+    /* background-color: red; */
+    left: 7%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#text-div>h1{
+    font-size: 85px;
+    font-family: monument;
+    font-weight: 800;
+    letter-spacing: 8px;
+    line-height: 78px;
+    color: #fff;
+    text-transform: uppercase;
+}
+    
+#small-img-div{
+    height: 400px;
+    width: 300px;
+    /* background-color: aqua; */
+    background-image: url(https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fG1vZGVsfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+
+}
+#overlay-in{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(342, 6%, 57%, 0.296) ;
+}
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -51%;
+    top: -6%;
+    transform-origin: 0% 0%;
+    /* width: 100%; */
+    /* background-color: blue; */
+}
+#vertical-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase ;
+    color: transparent;
+    letter-spacing: 10px;
+    font-family: monument;
+    -webkit-text-stroke-width:2px ;
+    -webkit-text-stroke-color:#fff ;
+}
+#navbar{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    left: 4%;
+    top: 5%;
+    /* background-color: red; */
+}
+#navbar img{
+    height: 60px;
+}
+#navbar h5{
+    font-size: 20px;
+    color: #fff;
+
+}
