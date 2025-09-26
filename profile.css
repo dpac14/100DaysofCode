@@ -55,14 +55,22 @@ body{
 }
 
 .text-date .name{
-    font-size: 22px;
-    font-weight: 500;
+    font-weight: bolder;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+
 
 }
-.text-date .job{
-    font-size: 15px;
-    font-weight: 400;
+ .job{
+    font-size: 0.7em;
+    font-weight: bolder;
+    color: gray;
 
+}
+.job-dis{
+ font-size: 0.8em;
+  color: grey;
+  margin: 10px 30px 20px;
 }
 
 .profile-card .media-button{
