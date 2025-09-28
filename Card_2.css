@@ -64,9 +64,6 @@
   
 }
  .icon button{
- /* border-radius: 10px ;
- border: none ;
-  /* height: fit-content; */
   width: fit-content;
   font-size: 2em; 
   background-color:#fff; 
@@ -75,7 +72,6 @@
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  /* width: 100px; */
   height: 45px;
   transition: 0.3s;
 }
