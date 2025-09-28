@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon Card</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100%;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            background: linear-gradient(135deg, #8a2be2, #4169e1);
+        }
+
+        .content {
+            text-align: center;
+            padding: 2rem;
+            background-color: rgb(255, 255, 255, 0.9);
+            border-radius: 10px;
+            max-width: 400px;
+        }
+
+        img {
+            width: 350px;
+            border-radius: 5px;
+            object-fit: contain;
+            box-shadow: -5px 5px 30px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 20px
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        input[type="email"] {
+            padding: 0.7rem;
+            height: 30px;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+
+        button {
+            padding: 0.7rem;
+            background-color: #8a2be2;
+            color: #fff;
+            border: none;
+            height: 40px;
+            font-weight: bolder;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.9);
+        }
+
+        button:hover {
+            background-color: #5f04b5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="/practise/bg.img/Krsna-your-truly.png" alt="Music Album">
+            <h2>Coming Soon</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore ab, voluptas quibusdam fugit sit porro</p>
+            <form id="notify">
+                <input type="email" placeholder="Enter Your e-Mail" required>
+                <button>Notify Me!</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
