@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Carousel-Animations</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-word: #5134ff;
+        }
+
+        .container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+        }
+
+        h1 {
+            height: 250px;
+            width: 250px;
+            display: flex;
+            background-color: #f8f3f3;
+            justify-items: center;
+            align-items: center;
+            padding-left: 40px;
+            border-radius: 5px;
+            box-shadow: -1px -1px 100px;
+
+        }
+
+        h1::after {
+            content: "";
+            animation: 6s swap infinite;
+            background: var(--bg-word);
+            color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        @keyframes swap {
+            0% {
+                content: "Code";
+            }
+
+            25% {
+                content: "Food";
+            }
+
+            50% {
+                content: "YouTube";
+            }
+
+            75% {
+                content: "Sleep";
+            }
+
+            100% {
+                content: "Code";
+            }
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>I Love </h1>
+    </div>
+</body>
+
+</html>
