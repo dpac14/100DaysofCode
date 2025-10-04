@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar</title>
+    <link rel="stylesheet" href="Search-bar.css">
+</head>
+
+<body>
+    <div class="search-bar-container">
+        <img src="https://cdn2.iconfinder.com/data/icons/ui-web-thin/128/serach-find-zoom-seo-1024.png" alt="magnifier"
+            class="magnifire">
+
+        <input type="text" class="input" placeholder="Search... ">
+        <img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-1024.png" alt="mic"
+            class="mic-icon">
+    </div>
+    <script>
+        const searchBarContainerEl = document.querySelector(".search-bar-container")
+        const magnifireEl = document.querySelector(".magnifire");
+
+        magnifireEl.addEventListener("click", () => {
+            searchBarContainerEl.classList.toggle("active");
+        })
+    </script>
+</body>
+
+</html>
